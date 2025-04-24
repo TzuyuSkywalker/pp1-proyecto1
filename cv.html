@@ -9,25 +9,20 @@
     <meta
       name="logramos explorar a profundidad las cualidades profesionales de esta persona"
     />
+    <link rel="stylesheet" href="style.css" />
+    <script src="cv-script.js"></script>
     <title>Curriculum Vitae</title>
   </head>
+
   <body style="font-family: Arial, Helvetica, sans-serif; margin: 0">
     <!-- Columna izquierda -->
-    <div
-      style="
-        width: 250px;
-        height: 1175px;
-        background-color: #009999;
-        color: white;
-        float: left;
-        padding: 20px;
-      "
-    >
+    <div class="left_Column">
       <img
         src="src/assets/minji.jpg"
-        width="250"
-        height="405"
-        style="border-radius: 10px; border: 2px"
+        class="imgRes"
+        id="slideImg"
+        onmouseover="changeImgSize()"
+        onmouseout="resetImgSize()"
       />
       <p>
         📍 Seúl, Corea del Sur<br />
@@ -56,8 +51,8 @@
     </div>
 
     <!-- COLUMNA DERECHA -->
-    <div style="margin-left: 300px; padding: 30px; width: 600px">
-      <h1 style="color: #009999">Kim Minji</h1>
+    <div class="right_Column">
+      <h1 class="personColorName">Kim Minji</h1>
       <hr />
       <h3>Idiomas</h3>
       <p>
@@ -67,7 +62,7 @@
         fans)<br />
       </p>
       <br />
-      <h3>Habilidades informaticas</h3>
+      <h3>Habilidades informatic as</h3>
       <p>
         ◾ Edición de video (Final Cut Pro, Adobe Premiere Pro)<br />
         ◾ Diseño gráfico (Adobe Photoshop, Canva)<br />

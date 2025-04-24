@@ -1,0 +1,38 @@
+.left_Column {
+  width: 250px;
+  height: auto;
+  background-color: #009999;
+  color: white;
+  float: left;
+  padding: 20px;
+}
+
+.right_Column {
+  margin-left: 270px;
+  padding: 30px;
+  width: 600px;
+}
+
+.imgRes {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px;
+}
+.personColorName {
+  color: #009999;
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-effect {
+  animation: slideIn 0.5s ease;
+}

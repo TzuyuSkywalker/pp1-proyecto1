@@ -1,0 +1,77 @@
+.left_Column {
+  width: 250px;
+  height: auto;
+  background-color: #009999;
+  color: white;
+  float: left;
+  padding: 20px;
+}
+
+.right_Column {
+  margin-left: 270px;
+  padding: 30px;
+  width: 600px;
+}
+
+.imgRes {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #009999;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+}
+.personColorName {
+  color: #009999;
+}
+@media (max-width: 1000px) {
+  .left_Column {
+    width: 180px;
+    padding: 15px;
+  }
+  .right_Column {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  .left_Column,
+  .right_Column {
+    width: 100%;
+    margin-left: 0;
+    padding: 15px;
+    border-radius: 0;
+  }
+  .imgRes {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto 20px auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .left_Column,
+  .right_Column {
+    padding: 10px;
+    font-size: 0.98em;
+  }
+  .imgRes {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .left_Column,
+  .right_Column {
+    padding: 6px;
+    font-size: 0.95em;
+  }
+  .imgRes {
+    max-width: 100%;
+    border-radius: 3px;
+  }
+}
